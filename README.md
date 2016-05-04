@@ -10,7 +10,7 @@ The class RealFibonacci, derived from Fibonacci, is the class that the proxy int
 The class ProxyFibonacci, derived from Fibonacci, is the proxy interface for a RealFibonacci object. This proxy class restricts access to the fibonacci sequence generated and stored by RealFibonacci so that it cannot be modified. It also maintains the vector storing the generated fibonacci sequence so that it can access previously calculated values without recalculating the entire sequence. If a fibonacci number that has not yet been calculated is requested, then new fibonacci numbers are added to the already existing vector of fibnacci numbers. This stops redundant recalculation of the Fibonacci sequence.
 
 
-The file main.cpp contains a short example of using the implemented proxy design pattern.
+The file main.cpp contains a short example of using the implemented proxy design pattern to calculate large and small fibonacci numbers through the proxy interface
 
 
 Sources Used: 
