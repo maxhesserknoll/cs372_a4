@@ -3,7 +3,7 @@ CS 372 Assignment 4 - Max Hesser-Knoll
 
 This code implements the Proxy design pattern.
 
-The abstract base class Fibonacci defines the interface for the derived classes. It has a single pure virtual member function, getFibonacci, which accepts an int and returns an unsigned long. This function is meant to return the nth fibonacci number
+The abstract base class Fibonacci defines the interface for the derived classes. It has a single pure virtual member function, getFibonacci, which accepts an int and returns an unsigned long. This function is meant to return the nth fibonacci number.
 
 The class RealFibonacci, derived from Fibonacci, is the class that the proxy interface is applied to. This is an instantiable class with an implementation of getFibonacci that creates a vector holding the 0 through nth fibonacci numbers and returns the nth fibonacci number.
 
